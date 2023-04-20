@@ -9,16 +9,32 @@ body {
     margin-left: 10px;
 }
 
+div, footer{
+    display: inline-block;
+    height: 100px;
+}
+
+.container {
+    margin: 20 px 0px;
+    width: 100%;
+}
+
+.lbox, .rbox, footer {
+    border: 3px solid black;
+}
+
 .lbox {
-    width: 500px;
-    height: 500px;
-    background: red;
-    border: 3px solid;
+    width: 35%;
+    background: pink;
+    margin-right: 3%;
 }
 
 .rbox {
-    width: 500px;
-    height: 500px;
-    background: red;
-    border: 3px solid;
+    width: 60%;
+    background: cornflowerblue;
+}
+
+footer {
+    width: 98.5%;
+    background: yellow;
 }
