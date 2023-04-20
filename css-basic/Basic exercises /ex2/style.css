@@ -1,0 +1,19 @@
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(250, 160, 160);
+}
+
+#two {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#four {
+    background: rgb(73, 228, 65);
+    font-size: 24px;
+    font-weight: bold;
+}

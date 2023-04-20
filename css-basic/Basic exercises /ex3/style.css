@@ -1,0 +1,13 @@
+.left {
+    background: black;
+    color: white;
+}
+
+.right {
+    background: yellow;
+}
+
+button {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}

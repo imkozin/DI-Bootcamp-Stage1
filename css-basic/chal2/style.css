@@ -1,0 +1,41 @@
+body {
+    background: rgba(244, 175, 96, 0.854);
+}
+
+h1 {
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom-style: dotted;
+    border-width: 5px;
+    margin: auto;
+}
+
+div {
+    background: rgb(241, 223, 203);
+    text-align: center;
+    border-style: dotted;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+}
+
+li::first-letter {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
