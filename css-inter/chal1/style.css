@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: midnightblue;
+    flex-flow: row wrap;
+}
+
+div#nav {
+    background: lightsteelblue;
+    float: left;
+    width: 15%;
+    height: 400px;
+    margin-left: 130px;
+    padding-left: 25px;
+}
+
+#content {
+    width: 65%;
+    background: cornflowerblue;
+    text-align: center;
+    display: inline-block;
+    height: 400px;
+    margin: auto;
+}
+
+p ~ ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+h2 > ul {
+    text-align: center;
+}
